@@ -8,6 +8,25 @@ I don't just write software. I obsess over the *entire system* around it: how co
 
 ---
 
+## Contents
+
+- [What I Do](#what-i-do)
+- [Unreal Engine Infrastructure](#unreal-engine-infrastructure)
+  - [Epic Horde](#epic-horde)
+  - [Zen Server](#zen-server)
+  - [Multi-site infrastructure](#multi-site-infrastructure)
+- [Perforce](#perforce)
+- [CI/CD & Build Artifacts](#cicd-build-artifacts)
+- [Observability & Developer Productivity](#observability-developer-productivity)
+- [AI / LLM-Driven Products](#ai-llm-driven-products)
+  - [Engineering agents & MCP](#engineering-agents-mcp)
+- [Other things in the toolbox](#other-things-in-the-toolbox)
+- [How I Think About Engineering](#how-i-think-about-engineering)
+- [Problems I want to solve](#problems-i-want-to-solve)
+- [Contact](#contact)
+
+---
+
 ## 🛠️ What I Do
 
 | Area | Focus |
