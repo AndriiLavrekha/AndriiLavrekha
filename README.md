@@ -17,6 +17,7 @@ I don't just write software. I obsess over the *entire system* around it: how co
   - [Multi-site infrastructure](#multi-site-infrastructure)
 - [Perforce](#perforce)
 - [CI/CD & Build Artifacts](#cicd-build-artifacts)
+- [Cloud, Containers & SRE](#cloud-containers-sre)
 - [Observability & Developer Productivity](#observability-developer-productivity)
 - [AI / LLM-Driven Products](#ai-llm-driven-products)
   - [Engineering agents & MCP](#engineering-agents-mcp)
@@ -33,6 +34,7 @@ I don't just write software. I obsess over the *entire system* around it: how co
 |---|---|
 | **Build Engineering** | Compiling, packaging, distributing, retaining, diagnosing builds |
 | **DevOps / Platform Engineering** | Source control, CI/CD, compute, storage, and workstations, wired together |
+| **Cloud & SRE** | Running production workloads on AWS and Azure, keeping them reliable and observable |
 | **Tools Engineering** | Killing repetitive work for devs, artists, build & DevOps engineers |
 | **Unreal Engine Infrastructure** | Everything *around* the engine, not gameplay code |
 | **Automation Engineering** | If a human repeats a deterministic task, I start asking why software isn't doing it |
@@ -93,9 +95,22 @@ A good CI system should answer more than "green or red":
 
 ---
 
+## ☁️ Cloud, Containers & SRE
+
+Proactive, hands-on experience running production and internal workloads in the cloud, not just reading the docs.
+
+- **Kubernetes**: deploying, scaling, and operating workloads, both internal tooling and build/CI infrastructure.
+- **Docker / containerization**: packaging build agents, services, and tooling into consistent, reproducible environments instead of hand-configured machines.
+- **Ansible**: configuration management and provisioning across build machines, agents, and servers, playbooks instead of manual setup notes.
+- **AWS and Azure**: running production and internal workloads across both clouds, compute, storage, networking, managed services.
+
+The SRE mindset carries over directly from build engineering: reliability, on-call readiness, fast incident diagnosis, and treating infrastructure as something that has to be observable and recoverable, not just deployed and left alone.
+
+---
+
 ## 📊 Observability & Developer Productivity
 
-Collecting engineering telemetry (build/compile duration, cache hit rates, queue times, failures) from workstations and CI, via `Grafana`, `Loki`, `Elasticsearch`, UBT/Horde log parsing. Low overhead at the source, centralized storage, independent analysis.
+Collecting engineering and infrastructure telemetry (build/compile duration, cache hit rates, queue times, failures, service and cluster health) via `Grafana`, `Loki`, `Elasticsearch`, and UBT/Horde log parsing. Building dashboards and alerting people actually look at, not vanity charts. Low overhead at the source, centralized storage, independent analysis.
 
 The goal isn't watching developers. It's understanding the system. A 10-minute problem repeated by 100 developers daily isn't small. **It's infrastructure.**
 
