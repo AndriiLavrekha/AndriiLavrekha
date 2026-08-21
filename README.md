@@ -1,6 +1,6 @@
 # Hey, I'm Andrii Lavrekha 👋
 
-**Build / DevOps / Platform Engineer** based in Berlin, Germany. Living in the space between software engineering and infrastructure engineering, with deep roots in **Unreal Engine developer infrastructure** and a growing side quest in **AI/LLM-driven products**.
+** Software | DevOps/Platform Engineer** based in Berlin, Germany. Living in the space between software engineering and infrastructure engineering, with deep roots in **Unreal Engine developer infrastructure** and a growing side quest in **AI/LLM-driven products**.
 
 I don't just write software. I obsess over the *entire system* around it: how code gets to a developer, how it gets built, how it gets diagnosed when it breaks at 2am, and how it stays understandable six months later when someone else has to touch it.
 
