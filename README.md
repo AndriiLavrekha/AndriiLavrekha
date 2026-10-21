@@ -6,6 +6,8 @@ I don't just write software. I obsess over the *entire system* around it: how co
 
 > 🧠 **In one sentence:** I build the infrastructure between *a developer changing something* and *a studio turning that change into a reliable, observable, reproducible build*, and I build AI/LLM products that apply the same systems-thinking to real people's problems.
 
+**Featured project:** [Breadcrumbs — Project Memory for Codex and Claude Code](https://github.com/AndriiLavrekha/breadcrumbs). My open-source plugin for persistent project memory, session handoffs, and Markdown progress tracking.
+
 ---
 
 ## Contents
